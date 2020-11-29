@@ -1,0 +1,7 @@
+/* global chrome */
+
+(function init() {
+
+
+
+}());

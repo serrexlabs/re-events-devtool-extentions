@@ -5,11 +5,15 @@
   "description": "Inspect re-event events and debug",
   "background": {
     "scripts": [
-      "scripts/background.js"
+      "background.js",
+      "helpers/storage.js",
+      "helpers/utils.js"
     ]
   },
   "devtools_page": "devtools.html",
   "permissions": [
+    "activeTab",
+    "storage",
     "tabs",
     "http://*/*",
     "https://*/*"
